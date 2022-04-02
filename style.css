@@ -4,8 +4,44 @@
 
 
 h1 {
+    text-align: center;
 
 }
+
+h2 {
+    text-align: center;
+}
+
 p {
     font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+.button {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: rgb(206, 8, 8);
+    font-size: x-large;
+}
+#foto {
+
 }
