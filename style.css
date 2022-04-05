@@ -1,5 +1,5 @@
 * {
-    background-color: rgba(231, 229, 229, 0.959);
+    background-color: rgba(231, 229, 229, 0.479);
 }
 
 
@@ -28,6 +28,7 @@ ul li {
 
 
 .button {
+    display: inline-block;
     text-align: center;
     color: white;
     background-color: black;
@@ -43,5 +44,18 @@ ul li {
     font-size: x-large;
 }
 #foto {
+    
+
+}
+nav {
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    margin-left: 50px;
+}
+article:hover{
+    font-size: x-large;
+
 
 }
