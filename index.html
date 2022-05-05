@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Henrique Rosa</title>
 </head>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
 
 <body>
-    <div>
-        <div>
-            <h1 id="topo">Seja Bem Vindo ao meu Portifólio da Trybe</h1>
-        </div>
+    <header>
+        <h1 id="topo">Seja Bem Vindo ao meu Portifólio da Trybe</h1>
 
-        <nav>
-           <p>
-            <a class="button" href="#sobreMim" > Sobre Mim </a>
-            <a class="button" href="#jaSei" >Habilidades Aprendidas</a> 
-            <a class="button" href="#aprendendo" >Habilidades Em Constução</a> 
-            <a class="button" href="#future" >Habilidades Futuras</a>
-           </p>
-        </nav>
+        <section class="nav-buttons">
+            <nav>
+                <a class="button" href="#sobreMim"> Sobre Mim </a>
+                <a class="button" href="#jaSei">Habilidades Aprendidas</a>
+                <a class="button" href="#aprendendo">Habilidades Em Constução</a>
+                <a class="button" href="#future">Habilidades Futuras</a>
+            </nav>
+        </section>
+    </header>
 
-        <br>
-        
-        <div>
-            <div>
-                <img id="foto" width="600 px" src="images/WhatsApp Image 2022-03-31 at 18.38.53.jpeg" alt="Minha Foto">
-            </div>
-            <article>
-            <p id="sobreMim"> Me chamo <strong>Henrique Samuel Rosa
-            </strong>, moro em <strong>Louveira-SP                
-            </strong>, tenho experiência de 7 anos com Logística
-             e atualmente estou em transição de carreira,
-              saindo da Logística e indo para a área de 
-              <strong>T.I</strong>, estou estudando 
-              <strong>Desenvolvimento Web na Trybe</strong></p>
-            </article>
-        </div>
-    </div>
-    <h2 id="jaSei">Habilidades Aprendidas</h2>
-     <br>
+    <section id="photo">
+        <img id="foto" width="600 px" src="images/WhatsApp Image 2022-03-31 at 18.38.53.jpeg" alt="Minha Foto">
+    </section>
     <article>
+        <p id="sobreMim">
+            Me chamo <strong>Henrique Samuel Rosa
+            </strong>, moro em <strong>Louveira-SP
+            </strong>, tenho experiência de 7 anos com Logística
+            e atualmente estou em transição de carreira,
+            saindo da Logística e indo para a área de
+            <strong>T.I</strong>, estou estudando
+            <strong>Desenvolvimento Web na Trybe</strong>
+        </p>
+    </article>
+    <section class="learned">
+        <h2 id="jaSei">Habilidades Aprendidas</h2>
         <ul>
             <li>Unix & Bash</li>
             <li>Git, GitHub e Internet</li>
-        </ul>
-    </article>
-    <br>
-    <h2 id="aprendendo" >Habilidades Em Construção</h2>
-    <br>
-    <article>
-        <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>HTML Semântico</li>
+            <li>JavaScript</li>
         </ul>
-    </article>
-    <br>
-    <h2 id="future" >Habilidades Futuras</h2>
-    <br>
-    <article>
+    </section>
+
+    <section class="learning">
+        <h2 id="aprendendo">Habilidades Em Construção</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Logica de Programação</li>
+            <li>Flex Box</li>
+            <li>Bibliotecas</li>
+            <li>Forms</li>
+            <li>Mobile First</li>
+        </ul>
+    </section>
+
+    <section class="will-learn">
+        <h2 id="future">Habilidades Futuras</h2>
         <ul>
             <li>JavaScript</li>
             <li>Lógica de Programação</li>
@@ -79,13 +81,14 @@
             <li>Ciência da Computação</li>
             <li>Algoritimos</li>
         </ul>
-    </article>
-     <br>
-    
+    </section>
+
     <footer>
-        <a href= "https://www.linkedin.com/in/henriquesrosa/"> <img width="100px" src="images/linkedin-botão-social-popular-do-ícone-dos-meios-no-fundo-branco-isolado-transparente-154683363.jpg" alt="Linkedin" ></a>
-        <br>
+        <a href="https://www.linkedin.com/in/henriquesrosa/"> <img width="100px"
+                src="images/linkedin-botão-social-popular-do-ícone-dos-meios-no-fundo-branco-isolado-transparente-154683363.jpg"
+                alt="Linkedin"></a>
         <a class="button" href="#topo"> Voltar Ao Topo</a>
     </footer>
 </body>
+
 </html>
