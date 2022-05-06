@@ -1,8 +1,12 @@
-* {
-    background-color: rgba(231, 229, 229, 0.479);
+ * {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
 }
 
-
+/*
 h1 {
     text-align: center;
 
@@ -24,9 +28,6 @@ ul li {
     text-align: center;
 }
 
-
-
-
 .button {
     display: inline-block;
     text-align: center;
@@ -43,10 +44,6 @@ ul li {
     background-color: rgb(206, 8, 8);
     font-size: x-large;
 }
-#foto {
-    
-
-}
 nav {
     display: inline-block;
 }
@@ -55,7 +52,87 @@ footer {
     margin-left: 50px;
 }
 article:hover{
-    font-size: x-large;
+  font-size: x-large;
+} */
 
+@media screen and (max-width: 500px) {
+  header h1 {
+      display: flex; 
+      width: 95%;
+      text-align: center;
+      font-family: 'lato';
+      margin: 5px;
+      padding: 5px;
+  }
+  .navigation {
+      width: 100%;
+      padding: 2px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
 
+  nav .button{
+      width: 40%; 
+      color: white;
+      background-color: black;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 5px 10px;
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 1px;     
+  }
+  #photo {
+      margin: 15px 0px;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+  }
+  #foto{
+    max-width: 95%;
+  }
+
+  .article {
+    margin-left: 8px;
+    width: 95%;
+    font-family: 'monospace';
+    letter-spacing: 2px;
+    margin: 15px;
+  }
+
+  .learned {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .will-learn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  section ul li {
+      padding: 5px;
+      font-size: larger;
+      font-weight: 700;
+  }
 }
