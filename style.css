@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aquamarine;
+    background-color: rgb(205, 239, 228);
 }
 
 /*
@@ -134,5 +134,26 @@ article:hover{
       padding: 5px;
       font-size: larger;
       font-weight: 700;
+      text-align: center;
   }
+
+  footer{
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+
+  footer h3{
+      text-align: center;
+      margin: 10px;
+      margin-bottom: 15px;
+  }
+
+  footer img{
+      width: 30px; 
+  }
+
 }
